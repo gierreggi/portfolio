@@ -1,0 +1,657 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+   font-family: Helvetica;
+   /* max-width: 1000px;  */
+   margin: auto;
+  }
+
+  nav {
+      display: flex;
+      flex-direction: row;
+      align-content: space-between;
+      padding-top: 3%;
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 18px;
+
+  } 
+
+  .logo {
+    width: 50%;
+    text-transform: uppercase ;
+    font-weight: bold;
+    color: #EAC4FF;
+    font-size: 18px;
+  }
+
+  .logo a {
+    text-decoration: none;
+  }
+
+  .topnav {
+      text-transform: uppercase;
+      width: 50%;
+      display: flex;
+      justify-content: flex-end;
+      
+  }
+
+  .topnav a {
+    margin-left: 24px;
+    color: black;
+    text-decoration: none;
+  }
+
+  .topnav .icon {
+  display: none;
+}
+  
+  
+  header{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .header {
+    margin-top: 5%;
+    
+  }
+
+  .page-header h4 {
+      width: 25%;
+      font-weight: 300;
+      margin-top: 5%;
+      font-size: 20px;
+      text-align: right;
+    
+  }
+
+  .header_ {
+    margin-top: 8%;
+
+  }
+  .page-header {
+    display: flex;
+    justify-content: flex-end;
+
+  }
+ 
+
+  .hero_title h1 {
+      color: #EAC4FF;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 180px;
+
+  }
+
+  .hero_title h2 {
+      text-transform: uppercase;
+      font-size: 90px;
+      float: right;
+      font-weight: 400;
+      line-height: 0px;
+      margin-top: 3%;
+  }
+
+  .chi_sono_section {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 15%;
+   max-width: 1200px;
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+ .chi_sono {
+   width: 50%;
+   padding-right: 5%;
+
+ }
+
+ .chi_sono p {
+
+  font-weight: 300;
+  margin-top: 5%;
+  font-size: 20px;
+ }
+
+ .chi_sono h3 {
+   
+  font-weight: 300;
+  font-size: 40px;
+  font-weight: bold;
+  color: #EAC4FF;
+  text-transform: uppercase;
+ }
+
+ .grg_pic {
+width: 50%;
+margin-left: 5%;
+ }
+
+ .grg_pic img {
+   width: 100%;
+   margin-top: 15%;
+ }
+
+ .social_icon {
+   display: flex;
+   justify-content: flex-start;
+   color:#EAC4FF;
+   margin-top: 10%;
+ }
+
+ .social_icon a {
+   margin-right: 10%;
+ }
+
+/*  .title_skills {
+  position: relative;
+  animation-name: mymove;
+  animation-duration: 5s;
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 100px;}
+} */
+
+  .title_skills h3 {
+    margin-top: 10%;
+  font-size: 80px;
+  font-weight: bold;
+  color: #EAC4FF;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.skills_section {
+  margin-top: 5%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skills_container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+
+.skills_container h4 {
+  color: #EAC4FF;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.skills_section section {
+  margin-top: 5%;
+  
+}
+
+ .single_skill1 {
+   margin-right: 5%;
+   font-size: 20px;
+   font-weight: 300;
+ }
+  
+ .single_skill2 {
+   margin-right: 5%;
+   margin-left: 5%;
+   font-size: 20px;
+   font-weight: 300;
+ }
+
+ .single_skill3 {
+   margin-left: 5%;
+   font-size: 20px;
+   font-weight: 300;
+ }
+
+ .portfolio {
+margin-top: 5%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+background-color: #EAC4FF;
+height: 300px;
+}
+
+.portfolio_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.portfolio_div h3 {
+  font-size: 80px;
+  font-weight: bold;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+
+}
+
+.portfolio_div a {
+  color:#EAC4FF;
+  background-color: #ffffff;
+  width: 450px;
+ text-align: center;
+ padding-top: 5px;
+ padding-bottom: 5px;
+ text-decoration: none;
+ font-size: 30px;
+} 
+
+.portfolio_div a:hover {
+  color:black;
+  background-color:#ffffff
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:#EAC4FF; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background:darkgray; 
+}
+
+
+.c_form {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 5%;
+}
+
+.c_form h1 {
+   color: #EAC4FF;
+   font-size: 80px;
+   font-weight: bold;
+   text-transform: uppercase;
+   text-align: center;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  font-family: Helvetica !important; 
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color:#EAC4FF;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bolder;
+  width: 200px;
+  font-size: 20px;
+  margin-left: 300px;
+}
+
+
+input[type=submit]:hover {
+  background-color:black;
+}
+
+.container_form {
+  width: 800px;
+  margin-top: 1%;
+}
+
+footer {
+  margin-top: 5%;
+  text-align: center;
+  padding: 30px;
+  background-color: black;
+  color: white;
+  line-height: 25px 
+}
+
+a:visited {
+  color:black;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #EAC4FF;
+}
+
+ .button_pt:hover {
+  color: #ffffff;
+  background-color: #EAC4FF;
+}
+
+
+.button_pt:visited {
+  color: #EAC4FF;
+}
+
+nav:hover {
+  color:#EAC4FF !important;
+} 
+
+
+.mail_footer:link {
+  color: #ffffff;
+}
+
+.mail_footer:hover {
+  color:#EAC4FF
+}
+
+.social_icon a:visited{
+  color: #EAC4FF;
+}
+
+.social_icon a:hover {
+  color:black;
+} 
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  background-color:#EAC4FF;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 0;
+}
+
+#myBtn:hover {
+  background-color:black;
+}
+
+.nav-menu {
+  color: #EAC4FF;
+  display: none;
+}
+
+.title_skills_mobile {
+  display: none;
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+  nav {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  header {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  
+  .chi_sono_section {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .skills_section {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  form {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  
+
+  .hero_title h1 {
+    font-size: 120px;
+}
+
+.hero_title h2 {
+  font-size: 50px;
+}
+
+.page-header h4 {
+  width: 35%;
+  font-size: 18px;
+}
+
+.chi_sono {
+  width: 75%;
+  padding-right: 3%;
+}
+
+.chi_sono p {
+  font-size: 18px;
+ }
+
+ .title_skills h3 {
+font-size: 40px;
+}
+
+.topnav a {
+  margin-left: 18px;
+  white-space: nowrap;
+} 
+
+.title_skills_mobile {
+  display: none;
+}
+
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 420px) {
+
+  nav {
+    padding-left: 5%;
+    padding-right: 5%;
+  } 
+
+  header {
+    width: 100%;
+    padding-left: 5% ;
+    padding-right: 5%;
+  }
+
+  .chi_sono_section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+ 
+  /* .nav-menu {
+    float: right;
+    display: block;
+    padding: 20px 10px;
+    cursor:pointer;
+  }
+
+  .topnav {
+    float: left;
+    overflow: hidden;
+    width: 100%;
+  }
+  .topnav a {
+    width: 100%;
+  } */
+
+  .page-header h4 {
+    display: none;
+  }
+
+  .hero_title h1 {
+    margin-top: 3%;
+    font-size: 70px;
+}
+
+.hero_title h2 {
+  font-size: 30px;
+}
+
+.chi_sono_section {
+  margin-top: 20%;
+}
+
+.chi_sono {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.chi_sono p {
+  font-size: 16px;
+}
+
+.grg_pic {
+  width: 90%;
+}
+.skills_container {
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10%;
+}
+
+.single_skill1 {
+  margin-right: 0%;
+    font-size: 16px;
+}
+
+.single_skill2 {
+  margin-right: 0%; 
+  margin-left: 0%; 
+  font-size: 16px;
+  padding-top: 5%;
+  
+}
+
+.single_skill3 {
+  margin-left: 0%;
+  font-size: 16px;
+  padding-top: 5%;
+}
+
+
+.title_skills h3 {
+  display: none;
+}
+
+.title_skills_mobile {
+   display: block;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-size: 30px;
+    font-weight: bold;
+    color: #EAC4FF;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.portfolio_div h3 {
+  font-size: 50px;
+}
+
+.portfolio {
+  height: 200px;
+}
+
+.portfolio_div a {
+  width: 300px;
+  font-size: 20px;
+}
+.container_form {
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 350px;
+}
+
+.c_form h1 {
+  padding-top: 10%;
+  font-size: 50px;
+ 
+}
+
+input[type=submit] {
+  margin-left: 70px;
+}
+
+#myBtn {
+  visibility: hidden;
+  
+}
+
+.topnav a {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+
+.topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align:right;
+    margin-top: 3%;
+  }
+
+  .topnav {
+    display: flex; 
+    flex-direction: column;
+}
+
+#one {
+  margin-top: 20%;
+}
+
+.fa {
+  float: right;
+}
+
+}
+
+

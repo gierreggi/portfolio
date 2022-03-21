@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giorgia - Digital Designer</title>
+    <link rel='stylesheet' href='style.css' />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    
+</head>
+
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">▲</button>
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+    <nav>
+        <div class="logo">
+            <a href=""> Giorgia </a>
+        </div>
+        <div class="topnav" id="myTopnav">
+            <a id="one" class="active" href="#home">Home</a>
+            <a href="#about">Chi sono</a>
+            <a href="#skills">Skills</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contacts">Contattami</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+        </div>
+    </nav>
+
+
+
+    <header class="header_">
+        <div class="page-header grid_h4">
+            <h4>Creativa, intuitiva, amante dell'armonia. Innamorata delle infinite opportunità che offre il mondo Digitale.</h4>
+        </div>
+        <div class="hero_title">
+            <h1 class="hero-h1">Giorgia</h1>
+            <h2 class="hero-h2">Digital Designer</h2>
+        </div>
+
+    </header>
+
+    <section class="chi_sono_section">
+        <div class="chi_sono">
+            <h3 id="about"> Chi sono</h3>
+            <p>Con un background da architetto e la passione il web ed il design, ho deciso di unire tutto ciò che mi appassiona e specializzarmi per aiutare le persone a sviluppare e digitalizzare la propria attività. Utilizzo competenze multidisciplinari per poter gestire il processo di creazione e promozione di un Brand a 360 gradi. Inizialmente ho lavorato come grafica, ciò mi ha permesso di imparare a comunicare attraverso le immagini e comporre layout chiari, semplici ed efficaci. <br> Lo studio della composizione grafica è poi sfociato nella passione per il web design. <br> Ho integrato tutte le mie conoscenze con il vastissimo mondo dei social media e del web marketing.  L’esperienza che ho maturato negli anni mi ha permesso di conoscere a fondo le potenzialità e le caratteristiche di questi strumenti, in particolar modo la loro evoluzione e le tendenze. Ciò mi permette di offrire ai miei clienti una visione oggettiva e professionale.</p>
+            <div class="social_icon">
+                <a href="https://www.instagram.com/gi3rr3ggi"><i class="fa-brands fa-instagram fa-3x"></i></a>
+                <a href="https://www.linkedin.com/in/giorgiadiserafino/"><i class="fa-brands fa-linkedin fa-3x"></i></a>
+                <a href="https://github.com/gierreggi"><i class="fa-brands fa-github fa-3x"></i></a>
+            </div>
+        </div>
+        <div class="grg_pic"> <img src="img/gandfu.jpg" alt="foto_giorgia"></div>
+        
+
+    </section>
+
+    <div class="title_skills">
+        <h3 id="skills">Scopri quali sono le mie skills</h3>
+    </div>
+    <div class="title_skills_mobile">
+        <h3>Le mie skills</h3>
+    </div>
+
+    <section class="skills_section">
+        </div>
+        <div class="skills_container">
+            <div class="single_skill1">
+                <h4 style="margin-bottom: 3%;"> Grafica</h4>
+                <p>Logo Design, Brand Identity, Grafiche per la stampa e digitali. Software come: Adobe Photoshop, Adobe Illustrator e Adobe Indesign, sono il mio pane quotidiano.</p>
+            </div>
+            <div class="single_skill2">
+                <h4 style="margin-bottom: 3%;"> Social Media</h4>
+                <p>Ottimizzazione del profilo, strategia di crescita, piano editoriale, creazione e pubblicazione contenuti, sono alcuni degli elementi principali per far crescere la tua attività.</p>
+            </div>
+            <div class="single_skill3">
+                <h4 style="margin-bottom: 3%;"> Web Marketing</h4>
+                <p>Dalla Business Suite di Facebook Google Ads. Obiettivi, strategia, target, parole chiave, creatività, analisi dei dati, per far decollare al meglio il tuo business.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio">
+        <div class="portfolio_div">
+            <h3 id="portfolio">portfolio</h3>
+
+            <a class="button_pt" href="https://www.behance.net/ipomea_viof758" target="_blank">
+                → GUARDA I MIEI LAVORI ←
+            </a>
+
+        </div>
+    </section>
+
+<section class="c_form">
+    <div>
+        <h1 id="contacts">Contattami</h1>
+    </div>
+        <div class="container_form">
+            <form action="action_page.php">
+          
+              <label for="fname">Nome</label>
+              <input type="text" id="fname" name="firstname" placeholder="Il tuo nome..">
+          
+              <label for="lname">Cognome</label>
+              <input type="text" id="lname" name="lastname" placeholder="Il tuo cognome..">
+          
+              <label for="subject">Messaggio</label>
+              <textarea id="subject" name="subject" placeholder="Scrivi qualcosa.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
+    </div>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+</section>
+
+<footer>
+    <p>© Copyright 2021 - Giorgia di Serafino<br>
+        <a class="mail_footer" href="mailto:giorgia.diserafino@gmail.com">Scrivimi</a></p>
+  </footer>
+
+  <script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+  </body>
+
+
+
+</html>
